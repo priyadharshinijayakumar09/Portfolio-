@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1a001f, #2b001f, #000000);
+  color: #f8f8f8;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  animation: fadeIn 1.3s ease;
+  background-size: 400% 400%;
+  animation: animatedBg 15s ease infinite;
+}
+@keyframes animatedBg {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+header {
