@@ -1,1 +1,65 @@
-its about my personal portfolio
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Priyadharshini | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Priyadharshini J</h1>
+    <p>Aspiring CSBS Professional | Creative Technologist</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I’m a Computer Science and Business Systems student passionate about building impactful, tech-driven solutions.</p>
+    </section>
+
+    <section id="skills" class="flex">
+      <div class="card"><h3>Languages</h3><p>Java, Python</p></div>
+      <div class="card"><h3>Web</h3><p>HTML, CSS, JavaScript</p></div>
+      <div class="card"><h3>Tools</h3><p>Power BI, Tableau, MySQL</p></div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="flex">
+        <div class="card">
+          <h3>TalkAble</h3>
+          <p>Assistive communication app using gestures and voice for differently-abled users.</p>
+        </div>
+        <div class="card">
+          <h3>DevChain</h3>
+          <p>Blockchain + DevOps for secure and transparent software development.</p>
+        </div>
+        <div class="card">
+          <h3>MBA Dashboard</h3>
+          <p>Survey-based Power BI dashboard for MBA student insights and data management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:youremail@gmail.com">youremail@gmail.com</a></p>
+      <p>Location: Mayiladuthurai, India</p>
+      <p>LinkedIn: <a href="#">LinkedIn Profile</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Priyadharshini J | Portfolio</p>
+  </footer>
+</body>
+</html>
